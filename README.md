@@ -1,24 +1,24 @@
 # Chess-GUI
-A chess game with a GUI board as well as chess pieces.
-By typing in coordinates the chess game is played, and each move is narrated by the program. 
+A chess game with a GUI board as well as chess pieces.\
+By typing in coordinates the chess game is played, and each move is narrated by the program. \
 
-This is an example of how it would work:
+This is an example of how it would work:\
 
 
-///////// TERMINAL VIEW //////////
-White's Pawn moves from E2 to E4
+///////// TERMINAL VIEW //////////\
+White's Pawn moves from E2 to E4\
 
- A B C D E F G H
-|♖|♘|♗|♕|♔|♗|♘|♖| 8
-|♙|♙|♙|♙|♙|♙|♙|♙| 7
-| | | | | | | | | 6
-| | | | | | | | | 5
-| | | | |♟| | | | 4
-| | | | | | | | | 3
-|♟|♟|♟|♟| |♟|♟|♟| 2
-|♜|♞|♝|♛|♚|♝|♞|♜| 1
-
-Please enter a move:
+ A B C D E F G H\
+|♖|♘|♗|♕|♔|♗|♘|♖| 8\
+|♙|♙|♙|♙|♙|♙|♙|♙| 7\
+| | | | | | | | | 6\
+| | | | | | | | | 5\
+| | | | |♟| | | | 4\
+| | | | | | | | | 3\
+|♟|♟|♟|♟| |♟|♟|♟| 2\
+|♜|♞|♝|♛|♚|♝|♞|♜| 1\
+\
+Please enter a move:\
 
 
 
