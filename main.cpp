@@ -36,6 +36,8 @@ int main() {
      while (move != "EXIT")
      {
           cout << endl << "Please enter a move:" << endl;
+          cout << '♖' << endl;
+
           cin >> move;
           ClearScreen();
           cb.intakeMove(move);
