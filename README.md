@@ -1,7 +1,7 @@
 # Chess with GUI
 
 A C++ project that has a fully functional two-player chess engine built from scratch. The chess engine keeps track of:
-* Which player's turn it is
+* Player's turn
 * Valid and invalid moves
 * A narration that describes which player moved which piece (ie. Black's Bishop moves from B3 to D5 and captures White's Pawn)
 * If a player is in check
