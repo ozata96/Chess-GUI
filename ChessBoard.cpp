@@ -167,28 +167,38 @@ int ChessBoard::convertToRow(std::string coordinate)
     char fromFile = fromPosition[1];
     int fromFileInt = static_cast<int>(fromFile) - 48;
 
-    if (fromFileInt == 1)
-        fromFileInt = 7;
-    else if (fromFileInt == 2)
-        fromFileInt = 6;
-    else if (fromFileInt == 3)
-        fromFileInt = 5;
-    else if (fromFileInt == 4)
-        fromFileInt = 4;
-    else if (fromFileInt == 5)
-        fromFileInt = 3;
-    else if (fromFileInt == 6)
-        fromFileInt = 2;
-    else if (fromFileInt == 7)
-        fromFileInt = 1;
-    else if (fromFileInt == 8)
-        fromFileInt = 0;
-    else
+    switch (fromFileInt)
     {
+    case 1:
+        fromFileInt = 7;
+        break;
+    case 2:
+        fromFileInt = 6;
+        break;
+    case 3:
+        fromFileInt = 5;
+        break;
+    case 4:
+        fromFileInt = 4;
+        break;
+    case 5:
+        fromFileInt = 3;
+        break;
+    case 6:
+        fromFileInt = 2;
+        break;
+    case 7:
+        fromFileInt = 1;
+        break;
+    case 8:
+        fromFileInt = 0;
+        break;
+    default:
         cerr << endl
              << endl
              << "Please enter coordinates in this format: " << endl;
         cerr << "(XY, XY) with X = A-H, and Y = 1 - 8. " << endl;
+        break;
     }
     row = fromFileInt;
     return row;
